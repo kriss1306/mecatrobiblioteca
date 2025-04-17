@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MecatroBiblioteca</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b1f3a;
+      color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #09162d;
+      color: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    p {
+      margin: 5px 0 0;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background-color: #132a47;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s ease-in-out;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      font-size: 1.3em;
+      color: #ffffff;
+    }
+    .card a {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      background-color: #2e67d1;
+      color: white;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .card a:hover {
+      background-color: #5087f0;
+    }
+    footer {
+      background-color: #09162d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MecatroBiblioteca</h1>
+    <p>Recursos académicos para estudiantes de Ingeniería Mecatrónica</p>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h2>Física I (Mecánica)</h2>
+      <a href="https://drive.google.com/file/d/1YSddEqNT8NNwIvVfTIw-nWjL_Pm_AhmC/view?usp=sharing" target="_blank">Vectores y matrices</a>
+      <a href="https://drive.google.com/file/d/1q-QdEnmRFGaa82lh9XsZH2bV-qPBWLX-/view?usp=sharing" target="_blank">Serway and Jewett</a>
+      <a href="https://drive.google.com/file/d/13hG0RvCs8_ge3K5L0zYck36nVyooZQbl/view?usp=sharing" target="_blank">Estática</a>
+    </div>
+    <div class="card">
+      <h2>Cálculo Diferencial</h2>
+      <a href="https://drive.google.com/file/d/1ZZi1gLbYArdXF_sUs87nVGye-JcXMrJi/view?usp=sharing" target="_blank">Stewart (c/ formularios)</a>
+      <a href="https://drive.google.com/file/d/1xuHNOgXYLMkLYRrZd7-bDoj_tf3gJLgF/view?usp=sharing" target="_blank">Saenz (c/ formularios)</a>
+      <a href="https://drive.google.com/file/d/1Ro08UU4fMwbf8Cn1pBMiaGncSqMV_shE/view?usp=sharing" target="_blank">Vera</a>
+    </div>
+    <div class="card">
+      <h2>Álgebra Lineal</h2>
+      <a href="https://drive.google.com/file/d/1qFQyqEfCQV7dqOvApIef1MDhiTzLw3wW/view?usp=sharing" target="_blank">Introducción</a>
+      <a href="https://drive.google.com/file/d/1YTOUhigsBgpZgpJtpXfrAjXM9sIK5QN7/view?usp=sharing" target="_blank">Fundamentos</a>
+      <a href="https://drive.google.com/file/d/1ujygIqHQVYrrYrbSS8-_gYm46DuNrpVH/view?usp=sharing" target="_blank">Grossman</a>
+      <a href="https://drive.google.com/file/d/1RSg6CDjinov5rYxyeMraK1tBfymTaSy1/view?usp=sharing" target="_blank">Grossman (solucionario)</a>
+    </div>
+    <div class="card">
+      <h2>Taller de Comunicación Oral y Escrita</h2>
+      <a href="#">Ver PDF</a>
+    </div>
+    <div class="card">
+      <h2>Introducción a la Mecatrónica</h2>
+      <a href="https://drive.google.com/file/d/1se_cmhxI-dX1ljdJ9s7w5L8AJVnY7jEM/view?usp=sharing" target="_blank">AutoCAD</a>
+      <a href="https://drive.google.com/file/d/1I0m43ULD1ZGXqnA41hroRDK0HSlm6l0G/view?usp=sharing" target="_blank">Programación Gráfica Arduino</a>
+      <a href="https://drive.google.com/file/d/1hZGe0MeEz3Gdcyn7jYmvVHXhDJkiD7HT/view?usp=sharing" target="_blank">Fundamentos Arduino</a>
+      <a href="https://drive.google.com/file/d/12Q85sBsTTvr37g68XQPLsC520XGzDvfq/view?usp=sharing" target="_blank">Curso Práctico de Formación</a>
+      <a href="https://drive.google.com/file/d/1TQ73yL5Bz18tuG0rk1zU_Vshn-7x7z62/view?usp=sharing" target="_blank">Prácticas con Arduino Nivel 1</a>
+    </div>
+    <div class="card">
+      <h2>Programación Básica</h2>
+      <a href="https://drive.google.com/drive/u/0/folders/11gYKEakKs3rnOw4wEosza3ZybA5ozViX" target="_blank">Material de Programación</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MecatroBiblioteca - Desarrollado para estudiantes de Ing. Mecatrónica UNMSM</p>
+  </footer>
+</body>
+</html>
